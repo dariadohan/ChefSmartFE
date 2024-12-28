@@ -1,19 +1,13 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import ApplicationRoutes from "./routes/ApplicationRoutes.tsx";
+import "./index.css";
 
-const App: React.FC = () => {
+const App =  () => {
     return (
-        <div className="container">
-            <header>
-                <h1>Welcome to My React App</h1>
-            </header>
-            <main>
-                <p>This is a simple React application setup.</p>
-                <p>Edit <code>App.tsx</code> to get started!</p>
-            </main>
-            <footer>
-                <p>&copy; {new Date().getFullYear()} My React App. All rights reserved.</p>
-            </footer>
-        </div>
+        <Router>
+            <ApplicationRoutes />
+        </Router>
     );
 };
 
