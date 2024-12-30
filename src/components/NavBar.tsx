@@ -28,15 +28,26 @@ const ContainerTitle = styled.div`
     align-items: center;
 `
 
-const MenuItem= styled.span`
+const MenuItem= styled.a`
     font-family: Archivo,serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 700;
     color: #1F1F1FFF;
+    text-decoration: none;
 `
 
-const pages = ['Generare Retete', 'Retete Favorite', 'Ingrediente', 'Toate Retetele'];
+type PageType={
+    name: string,
+    to: string
+};
+
+const pages : PageType[] = [
+    {name:'Generate Recipes',  to: '/generate'},
+    {name:'Favorite Recipes', to: '/recipes'},
+    {name:'Ingredients', to: '/ingredients'},
+    {name: 'All Recipes', to: '/all recipes'}
+];
 
 const NavBar = () => {
     return (
@@ -46,9 +57,9 @@ const NavBar = () => {
             </Logo>
             <ContainerTitle>
                 {
-                    pages.map(page => (
-                        <MenuItem>
-                            {page}
+                    pages.map((page,index) => (
+                        <MenuItem href={page.to} key={index}>
+                            {page.name}
                         </MenuItem>
                     ))
                 }

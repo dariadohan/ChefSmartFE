@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import React from 'react';
 import NavBar from "../components/NavBar.tsx";
+import CtaComponent from "../components/ctaComponent.tsx";
+
 
 const HomePageContainer = styled.div`
   display: flex;
@@ -19,25 +21,25 @@ const Title = styled.h1`
 const TitleContainer = styled.div`
     color: #000000FF;
     position: absolute;
-    top: 180px;
-    left: 97px;
+    top: 11.2rem;
+    left: 6.6rem;
     font-family: Archivo;
 `
 
 const Description = styled.div`
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     text-align: left;
     height: 1.5rem;
 `;
 
 const DescriptionContainer = styled.div`
     position: absolute;
-    top: 270px;
-    left: 120px;
+    top: 16rem;
+    left: 6.7rem;
     width: 100%;
     height: 14.4rem;
     font-family: Baskervville,serif;
-    line-height: 48px;
+    line-height: 3.5rem;
     font-weight: 700;
     color: #000000FF;
     display: flex;
@@ -47,7 +49,7 @@ const DescriptionContainer = styled.div`
     gap: -1rem;
 `
 
-const list = ['Your ingredients, our recipes.','Saving food one meal at a time.']
+const list = ['Your ingredients, our recipes. Saving food one meal at a time.']
 const HomePage = () => {
     return (
         <>
@@ -66,6 +68,7 @@ const HomePage = () => {
                     ))
                     }
                 </DescriptionContainer>
+                <CtaComponent />
             </HomePageContainer>
         </>
     );
