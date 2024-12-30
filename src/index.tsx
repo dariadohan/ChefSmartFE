@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-//@ts-ignore
-import App from "./App.tsx"
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme.ts';
+import App from './App.tsx';
 
-const root = ReactDOM.createRoot(
-    document.getElementById('root') as HTMLElement
-);
-
-root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
-);
+const rootElement = document.getElementById('root');
+if (rootElement) {
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(
+        <ThemeProvider theme={theme}>
+            <App />
+        </ThemeProvider>
+    );
+}
