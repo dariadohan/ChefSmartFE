@@ -24,12 +24,12 @@ const RecipesContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.8rem;
 `;
 
 const RecipeCard = styled.div`
   width: 250px;
-  height: 320px;
+  height: 328px;
   margin: 1rem;
   padding: 1.25rem; /* 20px equivalent */
   border: 1px solid #ccc;
@@ -41,16 +41,16 @@ const RecipeCard = styled.div`
 
 const RecipeImage = styled.img`
   width: 100%;
-  height: 150px;
+  height: 215px;
   object-fit: cover;
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: -0.5rem;
 `;
 
 const RecipeTitle = styled.h2`
   font-size: 1.25rem; /* 20px equivalent */
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: -0.4rem;
 `;
 
 const RecipeInfo = styled.p`
@@ -98,12 +98,12 @@ const FavouriteRecipesPage = () => {
     },
 
     {
-      title: 'Pan Seared Salmon with Lemon Dijon',
+      title: 'Seared Salmon with Dijon',
       preparationTime: '60 mins',
       image: '/images/salmon.jpg',
     },
     {
-      title: 'Garlic Herb Steak and Potatoes',
+      title: 'Herb Steak and Potatoes',
       preparationTime: '90 mins',
       image: '/images/steak.jpeg',
     },
@@ -113,7 +113,7 @@ const FavouriteRecipesPage = () => {
       image: '/images/caesar-salad.jpg',
     },
     {
-      title: 'Pizza',
+      title: 'Pizza Funghi',
       preparationTime: '40 mins',
       image: '/images/pizza.jpg',
     },

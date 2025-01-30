@@ -17,7 +17,7 @@ const IngredientsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
 `;
 
@@ -31,9 +31,9 @@ const IngredientCard = styled.div`
 
 const IngredientImage = styled.img`
   width: 100%;
-  height: 8rem;
+  height: 9rem;
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 `;
 
 const IngredientName = styled.h2`

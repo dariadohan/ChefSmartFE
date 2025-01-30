@@ -11,9 +11,6 @@ const AllRecipesPage = () => {
         <Header>
           <Title>All our Recipes</Title>
           <SubTitle>Discover delicious recipes</SubTitle>
-          <Link to="/explore">
-            <ExploreButton>Explore Recipes</ExploreButton>
-          </Link>
         </Header>
         <RecipesContainer>
           <RecipeCard>
@@ -123,21 +120,11 @@ const SubTitle = styled.p`
   margin-bottom: 20px;
 `;
 
-const ExploreButton = styled.button`
-  background-color: #333333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-`;
-
 const RecipesContainer = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 3rem;
+  padding: 0.5rem;
 `;
 
 const RecipeCard = styled.div`
