@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar.tsx';
 
 const AllRecipesPage = () => {

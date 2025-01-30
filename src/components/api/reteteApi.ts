@@ -3,7 +3,7 @@ import { ApiConfig } from './ApiConfig.tsx';
 export class ReteteApi {
   apiConfig: ApiConfig;
 
-  construtor(apiConfig: ApiConfig) {
+  constructor(apiConfig: any) {
     this.apiConfig = apiConfig;
   }
 
