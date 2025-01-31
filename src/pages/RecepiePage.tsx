@@ -58,12 +58,24 @@ const FoodPage = () => {
 
         <TextContainer>
           <p>
+            <strong>Category:</strong> {food[index].category}
+          </p>
+        </TextContainer>
+
+        <TextContainer>
+          <p>
             <strong>Preparation Time:</strong> {food[index].preparationTime}
           </p>
         </TextContainer>
 
         <TextContainer>
           <p style={{ fontSize: '1.3rem' }}>{food[index].description}</p>
+        </TextContainer>
+
+        <TextContainer>
+          <p style={{ fontSize: '1.1rem', color: 'red', fontWeight: '600' }}>
+            {food[index].alergeni}
+          </p>
         </TextContainer>
       </div>
     </Container>

@@ -31,6 +31,47 @@ const AllRecipesPage = () => {
             </RecipeDetails>
           </RecipeCard>
           <RecipeCard>
+            <RecipeImage src="/images/caesar-salad.jpg" alt="Caesar Salad" />
+            <RecipeTitle>Caesar Salad</RecipeTitle>
+            <RecipeDescription>
+              Romaine lettuce, Caesar dressing, Parmesan, croutons, garlic, and
+              olive oil.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 30 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+
+          <RecipeCard>
+            <RecipeImage
+              src="/images/steak.jpeg"
+              alt="Herb Steak and Potatoes"
+            />
+            <RecipeTitle>Herb Steak and Potatoes</RecipeTitle>
+            <RecipeDescription>
+              Rib-eye steaks, potatoes, garlic, rosemary, thyme, butter, and
+              olive oil.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 90 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+          <RecipeCard>
+            <RecipeImage src="/images/pizza.jpg" alt="Pizza Funghi" />
+            <RecipeTitle>Pizza Funghi</RecipeTitle>
+            <RecipeDescription>
+              Pizza dough, tomato sauce, mozzarella, mushrooms, oregano, olive
+              oil.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 40 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+
+          <RecipeCard>
             <RecipeImage src="/images/bowl.jpg" alt="Recipe 2" />
             <RecipeTitle>Burrito Bowl</RecipeTitle>
             <RecipeDescription>
@@ -53,6 +94,28 @@ const AllRecipesPage = () => {
             </RecipeDetails>
           </RecipeCard>
           <RecipeCard>
+            <RecipeImage src="/images/curry.jpg" alt="Chicken Curry" />
+            <RecipeTitle>Chicken Curry</RecipeTitle>
+            <RecipeDescription>
+              Chicken, yogurt, spices, coconut milk, fresh coriander, and more.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 45 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+          <RecipeCard>
+            <RecipeImage src="/images/pasta.jpg" alt="Vodka Rigatoni" />
+            <RecipeTitle>Vodka Rigatoni</RecipeTitle>
+            <RecipeDescription>
+              Pasta, vodka, cream, tomatoes, garlic, and Parmesan cheese.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 45 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+          <RecipeCard>
             <RecipeImage src="/images/pancake.jpg" alt="Recipe 2" />
             <RecipeTitle>Chocolate Chips Pancake</RecipeTitle>
             <RecipeDescription>This is very tasty recipe.</RecipeDescription>
@@ -71,6 +134,18 @@ const AllRecipesPage = () => {
             </RecipeDetails>
           </RecipeCard>
           <RecipeCard>
+            <RecipeImage src="/images/wrap.jpg" alt="Chicken Wrap" />
+            <RecipeTitle>Chicken Wrap</RecipeTitle>
+            <RecipeDescription>
+              Chicken, tortillas, veggies, cheese, and ranch dressing
+              (optional).
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 40 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+          <RecipeCard>
             <RecipeImage src="/images/pot.jpg" alt="Recipe 2" />
             <RecipeTitle>Pot Roast</RecipeTitle>
             <RecipeDescription>This is very tasty recipe.</RecipeDescription>
@@ -78,7 +153,19 @@ const AllRecipesPage = () => {
               <RecipeInfo>Prep Time: 75 mins</RecipeInfo>
               <RecipeInfo>Cook Time: 60 mins</RecipeInfo>
             </RecipeDetails>
-          </RecipeCard>{' '}
+          </RecipeCard>
+          <RecipeCard>
+            <RecipeImage src="/images/hummus.jpg" alt="Beef Hummus" />
+            <RecipeTitle>Beef Hummus</RecipeTitle>
+            <RecipeDescription>
+              Ground beef, hummus, spices, parsley, and pine nuts (optional).
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 30 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
+
           <RecipeCard>
             <RecipeImage src="/images/alfredo.jpg" alt="Recipe 2" />
             <RecipeTitle>Cajun Shrimp Alfredo Pasta</RecipeTitle>
@@ -88,7 +175,20 @@ const AllRecipesPage = () => {
               <RecipeInfo>Cook Time: 30 mins</RecipeInfo>
             </RecipeDetails>
           </RecipeCard>
-          {/* Add more RecipeCards as needed */}
+          <RecipeCard>
+            <RecipeImage
+              src="/images/salmon.jpg"
+              alt="Seared Salmon with Dijon"
+            />
+            <RecipeTitle>Seared Salmon with Dijon</RecipeTitle>
+            <RecipeDescription>
+              Salmon, Dijon mustard, honey, lemon, garlic, and fresh parsley.
+            </RecipeDescription>
+            <RecipeDetails>
+              <RecipeInfo>Prep Time: 60 mins</RecipeInfo>
+              <RecipeInfo>Cook Time: 1 hour</RecipeInfo>
+            </RecipeDetails>
+          </RecipeCard>
         </RecipesContainer>
       </Container>
     </>
